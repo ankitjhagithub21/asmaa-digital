@@ -1,0 +1,12 @@
+#serviceImg{
+    height: 50vh;
+    background-image: url("/about.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+@media (max-width:768px) {
+    #serviceImg{
+        height: 30vh;
+    }
+}
